@@ -5,7 +5,7 @@
     <%= render template: 'spree/user_sessions/new' %>
   </div>
   <% if Spree::Config[:allow_guest_checkout] %>
-    <div class="col-md-6">
+    <div class="col-md-6 col-md-offset-3">
       <div class="panel panel-default">
         <div class="panel-heading">
           <h3 class="panel-title"><%= Spree.t(:guest_user_account) %></h3>
